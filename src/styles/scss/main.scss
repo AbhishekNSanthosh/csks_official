@@ -9,3 +9,12 @@ body {
   margin: 0;
   font-family: $font-family;
 }
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color:$theme-color;
+  border-radius: 5px;
+}
